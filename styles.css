@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Soft light blue background */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(to right, #ff69b4, #87cefa); /* Pink to blue gradient */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  background: white;
+  padding: 15px; /* Reduced padding to minimize space inside the box */
+  margin-bottom: 10px; /* Reduced margin to minimize space between sections */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2rem;
+  color: #ff69b4; /* Pink color */
+  margin-bottom: 10px;
+  padding-bottom: 5px; /* Added padding to improve readability */
+  border-bottom: 2px solid #ffb6c1; /* Underline to separate title from content */
+}
+
+/* Image and Text Styling */
+section img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 1rem; /* Adjusted font size to make the text less overwhelming */
+  line-height: 1.4; /* Reduced line height to make text more compact */
+  margin-bottom: 10px;
+}
+
+/* Check Your Symptom Page - Specific Styles */
+.symptom-selection h2 {
+  font-size: 2.5rem; /* Increased font size for more emphasis */
+  color: #ff69b4;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.symptom-selection .button {
+  font-size: 1.5rem; /* Increased button font size */
+  padding: 15px 20px; /* Enlarged button padding */
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background: #87cefa; /* Light blue */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+/* styles.css */
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+}

@@ -1,0 +1,50 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="fade-in">
+    <header>
+        <nav>
+            <h1>My Website</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="check-symptom.html">Check your Symptom</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <h2>Welcome to My Website</h2>
+      <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+      <p><strong class="highlighted-text">สุขภาพที่ดีคือความมั่งคั่งที่แท้จริง</strong></p>
+    </section>
+
+    <section id="disease-info">
+      <h2>โรค (Disease)</h2>
+      <p>โรค (Disease) คือ ความผิดปรกติของระบบการทำงานของร่างกาย ความผิดปกติของระบบอวัยวะและเนื้อเยื่อของร่างกาย ซึ่งสาเหตุของการเกิดโรคมีหลายสาเหตุ เช่น การติดเชื้อ การถ่ายทอดทางพันธุกรรม การทำงานผิดปรกติของอวัยวะ</p>
+    </section>
+
+    <section id="symptom-info">
+      <h2>อาการ (Symptom)</h2>
+      <p>อาการ (Symptom) คือ ความรู้สึกทางด้านร่างกายของผู้ป่วย ซึ่งเกิดจากความผิดปกติในการทำงานของอวัยวะและเนื้อเยื่อ ลักษณะอาการ เช่น อาการปวดศีรษะ อาการปวดท้อง อาการไอ ซึ่งอาการนี้ไม่ได้หมายถึงความผิดปรกติของร่างกายอย่างเดียว ยังหมายรวมถึงความผิดปรกติของจิตใจด้วย</p>
+    </section>
+
+    <section id="Cause of disease">
+      <h2>สาหตุของการเกิดโรค (Cause of disease)</h2>
+      <p>สำหรับปัจจัยของการเกิดโรคต่างๆนั้น บางปัจจัยสามารถมองเห็นได้ แต่บางปัจจัยก็ไม่สามารถมองเห็นได้ ซึ่งปัจจัยการเกิดโรคมาจาก 3 ส่วน คือ มนุษย์ สิ่งแวดล้อม และ เชื้อโรคต่างๆที่ทำให้ร่างกายของมนุษย์และสิ่งมีชีวิตผิดปรกติ</p>
+    </section>
+    </main>
+
+    <script>
+        // เพิ่มคลาส 'show' เมื่อเนื้อหาถูกโหลดเสร็จ
+        window.addEventListener('load', function () {
+            document.body.classList.add('show');
+        });
+    </script>
+</body>
+</html>
